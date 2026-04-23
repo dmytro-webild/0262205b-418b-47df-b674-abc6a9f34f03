@@ -68,7 +68,7 @@ export default function LandingPage() {
           href: "#products",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg?_wi=1"
       imageAlt="Modern home office setup"
       mediaAnimation="slide-up"
       avatars={[
@@ -164,25 +164,25 @@ export default function LandingPage() {
           id: "p1",
           name: "Noise Cancelling Headphones",
           price: "$199",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg?_wi=1",
         },
         {
           id: "p2",
           name: "Smart Coffee Maker",
           price: "$89",
-          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg?_wi=1",
         },
         {
           id: "p3",
           name: "Ergonomic Desk Chair",
           price: "$299",
-          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg?_wi=1",
         },
         {
           id: "p4",
           name: "Portable Power Bank",
           price: "$49",
-          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg?_wi=1",
         },
         {
           id: "p5",
@@ -247,7 +247,7 @@ export default function LandingPage() {
           quote: "The best headphones I ever bought!",
           tag: "Electronics",
           avatarSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-happy-young-woman-with-messy-braid-beautiful-charming-smile_273609-9329.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg?_wi=2",
           imageAlt: "young woman portrait",
         },
         {
@@ -258,7 +258,7 @@ export default function LandingPage() {
           quote: "Super fast shipping via Amazon link.",
           tag: "Home",
           avatarSrc: "http://img.b2bpic.net/free-photo/surprised-redhead-girl-with-short-haircut-posing-against-white-wall_176420-30165.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg?_wi=2",
           imageAlt: "young woman portrait",
         },
         {
@@ -269,7 +269,7 @@ export default function LandingPage() {
           quote: "My morning routine is so much better.",
           tag: "Lifestyle",
           avatarSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-confident-successful-businesswoman-suit-cross-arms-chest-standing_1258-118021.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg?_wi=2",
           imageAlt: "young woman portrait",
         },
         {
@@ -280,7 +280,7 @@ export default function LandingPage() {
           quote: "Truly curated collections.",
           tag: "Tech",
           avatarSrc: "http://img.b2bpic.net/free-photo/serious-young-business-man-looking-camera_1262-18625.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg?_wi=2",
           imageAlt: "young woman portrait",
         },
         {
@@ -291,7 +291,7 @@ export default function LandingPage() {
           quote: "High quality items, highly recommended.",
           tag: "Beauty",
           avatarSrc: "http://img.b2bpic.net/free-photo/businesswoman-glasses-portrait_1262-1461.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg?_wi=2",
           imageAlt: "young woman portrait",
         },
       ]}
