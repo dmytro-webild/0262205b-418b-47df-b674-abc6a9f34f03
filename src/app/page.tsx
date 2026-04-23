@@ -55,7 +55,7 @@ export default function LandingPage() {
         {
           text: "View Deals",          href: "#products"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg?_wi=1"
       imageAlt="Modern home office setup"
       mediaAnimation="slide-up"
       avatars={[
@@ -112,13 +112,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          name: "Noise Cancelling Headphones",          price: "$199",          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg"},
+          id: "p1",          name: "Noise Cancelling Headphones",          price: "$199",          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg?_wi=1"},
         {
-          id: "p2",          name: "Smart Coffee Maker",          price: "$89",          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg"},
+          id: "p2",          name: "Smart Coffee Maker",          price: "$89",          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg?_wi=1"},
         {
-          id: "p3",          name: "Ergonomic Desk Chair",          price: "$299",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg"},
+          id: "p3",          name: "Ergonomic Desk Chair",          price: "$299",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg?_wi=1"},
         {
-          id: "p4",          name: "Portable Power Bank",          price: "$49",          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg"},
+          id: "p4",          name: "Portable Power Bank",          price: "$49",          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg?_wi=1"},
         {
           id: "p5",          name: "Minimalist Wallet",          price: "$35",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-girl-laying-floor_23-2149645174.jpg"},
         {
@@ -153,15 +153,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",          name: "Sarah J.",          date: "Oct 2024",          title: "Verified Buyer",          quote: "The best headphones I ever bought!",          tag: "Electronics",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-happy-young-woman-with-messy-braid-beautiful-charming-smile_273609-9329.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg",          imageAlt: "young woman portrait"},
+          id: "t1",          name: "Sarah J.",          date: "Oct 2024",          title: "Verified Buyer",          quote: "The best headphones I ever bought!",          tag: "Electronics",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-happy-young-woman-with-messy-braid-beautiful-charming-smile_273609-9329.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg?_wi=2",          imageAlt: "young woman portrait"},
         {
-          id: "t2",          name: "Mark D.",          date: "Sept 2024",          title: "Verified Buyer",          quote: "Super fast shipping via Amazon link.",          tag: "Home",          avatarSrc: "http://img.b2bpic.net/free-photo/surprised-redhead-girl-with-short-haircut-posing-against-white-wall_176420-30165.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg",          imageAlt: "young woman portrait"},
+          id: "t2",          name: "Mark D.",          date: "Sept 2024",          title: "Verified Buyer",          quote: "Super fast shipping via Amazon link.",          tag: "Home",          avatarSrc: "http://img.b2bpic.net/free-photo/surprised-redhead-girl-with-short-haircut-posing-against-white-wall_176420-30165.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg?_wi=2",          imageAlt: "young woman portrait"},
         {
-          id: "t3",          name: "Emma L.",          date: "Sept 2024",          title: "Verified Buyer",          quote: "My morning routine is so much better.",          tag: "Lifestyle",          avatarSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-confident-successful-businesswoman-suit-cross-arms-chest-standing_1258-118021.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg",          imageAlt: "young woman portrait"},
+          id: "t3",          name: "Emma L.",          date: "Sept 2024",          title: "Verified Buyer",          quote: "My morning routine is so much better.",          tag: "Lifestyle",          avatarSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-confident-successful-businesswoman-suit-cross-arms-chest-standing_1258-118021.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg?_wi=2",          imageAlt: "young woman portrait"},
         {
-          id: "t4",          name: "Jason K.",          date: "Aug 2024",          title: "Verified Buyer",          quote: "Truly curated collections.",          tag: "Tech",          avatarSrc: "http://img.b2bpic.net/free-photo/serious-young-business-man-looking-camera_1262-18625.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg",          imageAlt: "young woman portrait"},
+          id: "t4",          name: "Jason K.",          date: "Aug 2024",          title: "Verified Buyer",          quote: "Truly curated collections.",          tag: "Tech",          avatarSrc: "http://img.b2bpic.net/free-photo/serious-young-business-man-looking-camera_1262-18625.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg?_wi=2",          imageAlt: "young woman portrait"},
         {
-          id: "t5",          name: "Lucy H.",          date: "Aug 2024",          title: "Verified Buyer",          quote: "High quality items, highly recommended.",          tag: "Beauty",          avatarSrc: "http://img.b2bpic.net/free-photo/businesswoman-glasses-portrait_1262-1461.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg",          imageAlt: "young woman portrait"},
+          id: "t5",          name: "Lucy H.",          date: "Aug 2024",          title: "Verified Buyer",          quote: "High quality items, highly recommended.",          tag: "Beauty",          avatarSrc: "http://img.b2bpic.net/free-photo/businesswoman-glasses-portrait_1262-1461.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg?_wi=2",          imageAlt: "young woman portrait"},
       ]}
       title="Trusted by Thousands"
       description="Hear what our community says about their latest finds."
