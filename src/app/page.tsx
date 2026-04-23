@@ -31,21 +31,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "home",
-        },
+          name: "Home",          id: "home"},
         {
-          name: "Products",
-          id: "products",
-        },
+          name: "Products",          id: "products"},
         {
-          name: "Categories",
-          id: "categories",
-        },
+          name: "Categories",          id: "categories"},
         {
-          name: "FAQ",
-          id: "faq",
-        },
+          name: "FAQ",          id: "faq"},
       ]}
       brandName="Urban Essentials"
     />
@@ -54,99 +46,58 @@ export default function LandingPage() {
   <div id="home" data-section="home">
       <HeroBillboard
       background={{
-        variant: "sparkles-gradient",
-      }}
+        variant: "sparkles-gradient"}}
       title="Curated Essentials for Modern Living"
       description="Discover top-rated products handpicked for your lifestyle. High-quality finds, honest reviews, and the best deals in one place."
       buttons={[
         {
-          text: "Shop Categories",
-          href: "#categories",
-        },
+          text: "Shop Categories",          href: "#categories"},
         {
-          text: "View Deals",
-          href: "#products",
-        },
+          text: "View Deals",          href: "#products"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg?_wi=1"
+      imageSrc="http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg"
       imageAlt="Modern home office setup"
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-young-beautiful-smiling-hipster-girl-trendy-summer-clothes-sexy-carefree-woman-posing-near-blue-wall-positive-model-having-fun_158538-6594.jpg",
-          alt: "Hipster girl",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-young-beautiful-smiling-hipster-girl-trendy-summer-clothes-sexy-carefree-woman-posing-near-blue-wall-positive-model-having-fun_158538-6594.jpg",          alt: "Hipster girl"},
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-brunette-woman-with-wavy-hair-looking-camera-isolated-dark-background_639032-149.jpg",
-          alt: "Brunette woman",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-brunette-woman-with-wavy-hair-looking-camera-isolated-dark-background_639032-149.jpg",          alt: "Brunette woman"},
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-young-blonde-woman_273609-10453.jpg",
-          alt: "Blonde woman",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-young-blonde-woman_273609-10453.jpg",          alt: "Blonde woman"},
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-young-red-haired-woman_273609-12232.jpg",
-          alt: "Red-haired woman",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-young-red-haired-woman_273609-12232.jpg",          alt: "Red-haired woman"},
         {
-          src: "http://img.b2bpic.net/free-photo/happy-young-woman-with-short-hair-blue-turtleneck-wearing-beret-looking-front-smiling-cheerfully-standing-white-wall_141793-62085.jpg",
-          alt: "Happy woman",
-        },
+          src: "http://img.b2bpic.net/free-photo/happy-young-woman-with-short-hair-blue-turtleneck-wearing-beret-looking-front-smiling-cheerfully-standing-white-wall_141793-62085.jpg",          alt: "Happy woman"},
       ]}
       avatarText="Trusted by 5,000+ modern homemakers"
       marqueeItems={[
         {
-          type: "text",
-          text: "Curated Daily",
-        },
+          type: "text",          text: "Curated Daily"},
         {
-          type: "image",
-          src: "http://img.b2bpic.net/free-photo/front-view-boy-posing-studio_23-2149596296.jpg",
-          alt: "Studio boy",
-        },
+          type: "image",          src: "http://img.b2bpic.net/free-photo/front-view-boy-posing-studio_23-2149596296.jpg",          alt: "Studio boy"},
         {
-          type: "text",
-          text: "Tech Essentials",
-        },
+          type: "text",          text: "Tech Essentials"},
         {
-          type: "image",
-          src: "http://img.b2bpic.net/free-photo/high-angle-hard-drive-still-life_23-2149417036.jpg",
-          alt: "Hard drive",
-        },
+          type: "image",          src: "http://img.b2bpic.net/free-photo/high-angle-hard-drive-still-life_23-2149417036.jpg",          alt: "Hard drive"},
         {
-          type: "text",
-          text: "Home Comfort",
-        },
+          type: "text",          text: "Home Comfort"},
       ]}
     />
   </div>
 
   <div id="categories" data-section="categories">
       <FeatureCardTwentyEight
+      animationType="slide-up"
       textboxLayout="split"
       useInvertedBackground={true}
       features={[
         {
-          id: "c1",
-          title: "Apartment Living",
-          subtitle: "Space-saving tech",
-          category: "Home",
-          value: "Essential",
-        },
+          id: "c1",          title: "Apartment Living",          subtitle: "Space-saving tech",          category: "Home",          value: "Essential"},
         {
-          id: "c2",
-          title: "Morning Routine",
-          subtitle: "Productivity gear",
-          category: "Lifestyle",
-          value: "Popular",
-        },
+          id: "c2",          title: "Morning Routine",          subtitle: "Productivity gear",          category: "Lifestyle",          value: "Popular"},
         {
-          id: "c3",
-          title: "Daily Commute",
-          subtitle: "On-the-go tech",
-          category: "Tech",
-          value: "Must-Have",
-        },
+          id: "c3",          title: "Daily Commute",          subtitle: "On-the-go tech",          category: "Tech",          value: "Must-Have"},
       ]}
       title="Shop by Essential Lifestyle"
       description="Navigate our curated collections designed to elevate your everyday routines."
@@ -161,41 +112,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          name: "Noise Cancelling Headphones",
-          price: "$199",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg?_wi=1",
-        },
+          id: "p1",          name: "Noise Cancelling Headphones",          price: "$199",          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg"},
         {
-          id: "p2",
-          name: "Smart Coffee Maker",
-          price: "$89",
-          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg?_wi=1",
-        },
+          id: "p2",          name: "Smart Coffee Maker",          price: "$89",          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg"},
         {
-          id: "p3",
-          name: "Ergonomic Desk Chair",
-          price: "$299",
-          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg?_wi=1",
-        },
+          id: "p3",          name: "Ergonomic Desk Chair",          price: "$299",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg"},
         {
-          id: "p4",
-          name: "Portable Power Bank",
-          price: "$49",
-          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg?_wi=1",
-        },
+          id: "p4",          name: "Portable Power Bank",          price: "$49",          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg"},
         {
-          id: "p5",
-          name: "Minimalist Wallet",
-          price: "$35",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-girl-laying-floor_23-2149645174.jpg",
-        },
+          id: "p5",          name: "Minimalist Wallet",          price: "$35",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-girl-laying-floor_23-2149645174.jpg"},
         {
-          id: "p6",
-          name: "Desktop LED Lamp",
-          price: "$55",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-photorealistic-lamp-design_23-2151039007.jpg",
-        },
+          id: "p6",          name: "Desktop LED Lamp",          price: "$55",          imageSrc: "http://img.b2bpic.net/free-photo/modern-photorealistic-lamp-design_23-2151039007.jpg"},
       ]}
       title="Top Trending Essentials"
       description="Our most popular picks updated weekly for your needs."
@@ -204,30 +131,16 @@ export default function LandingPage() {
 
   <div id="metrics" data-section="metrics">
       <MetricCardEleven
+      animationType="slide-up"
       textboxLayout="split"
       useInvertedBackground={true}
       metrics={[
         {
-          id: "m1",
-          value: "500+",
-          title: "Products Reviewed",
-          description: "Curated with expertise.",
-          imageSrc: "http://img.b2bpic.net/free-photo/abstract-orange-background-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color_1258-63961.jpg",
-        },
+          id: "m1",          value: "500+",          title: "Products Reviewed",          description: "Curated with expertise.",          imageSrc: "http://img.b2bpic.net/free-photo/abstract-orange-background-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color_1258-63961.jpg"},
         {
-          id: "m2",
-          value: "98%",
-          title: "User Satisfaction",
-          description: "High-quality standards.",
-          imageSrc: "http://img.b2bpic.net/free-photo/review-evaluation-satisfaction-customer-service-feedback-sign-icon_53876-122935.jpg",
-        },
+          id: "m2",          value: "98%",          title: "User Satisfaction",          description: "High-quality standards.",          imageSrc: "http://img.b2bpic.net/free-photo/review-evaluation-satisfaction-customer-service-feedback-sign-icon_53876-122935.jpg"},
         {
-          id: "m3",
-          value: "24/7",
-          title: "Support Access",
-          description: "Helping you choose.",
-          imageSrc: "http://img.b2bpic.net/free-photo/call-mum-inscription-with-white-flowers-laptop_23-2148096658.jpg",
-        },
+          id: "m3",          value: "24/7",          title: "Support Access",          description: "Helping you choose.",          imageSrc: "http://img.b2bpic.net/free-photo/call-mum-inscription-with-white-flowers-laptop_23-2148096658.jpg"},
       ]}
       title="Why Urban Essentials?"
       description="We rigorously test and review every product to ensure you get only the best recommendations."
@@ -240,60 +153,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          name: "Sarah J.",
-          date: "Oct 2024",
-          title: "Verified Buyer",
-          quote: "The best headphones I ever bought!",
-          tag: "Electronics",
-          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-happy-young-woman-with-messy-braid-beautiful-charming-smile_273609-9329.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg?_wi=2",
-          imageAlt: "young woman portrait",
-        },
+          id: "t1",          name: "Sarah J.",          date: "Oct 2024",          title: "Verified Buyer",          quote: "The best headphones I ever bought!",          tag: "Electronics",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-attractive-happy-young-woman-with-messy-braid-beautiful-charming-smile_273609-9329.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419466.jpg",          imageAlt: "young woman portrait"},
         {
-          id: "t2",
-          name: "Mark D.",
-          date: "Sept 2024",
-          title: "Verified Buyer",
-          quote: "Super fast shipping via Amazon link.",
-          tag: "Home",
-          avatarSrc: "http://img.b2bpic.net/free-photo/surprised-redhead-girl-with-short-haircut-posing-against-white-wall_176420-30165.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg?_wi=2",
-          imageAlt: "young woman portrait",
-        },
+          id: "t2",          name: "Mark D.",          date: "Sept 2024",          title: "Verified Buyer",          quote: "Super fast shipping via Amazon link.",          tag: "Home",          avatarSrc: "http://img.b2bpic.net/free-photo/surprised-redhead-girl-with-short-haircut-posing-against-white-wall_176420-30165.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/modern-round-wireless-speaker-with-slick-design-floating-concrete-background_23-2150808025.jpg",          imageAlt: "young woman portrait"},
         {
-          id: "t3",
-          name: "Emma L.",
-          date: "Sept 2024",
-          title: "Verified Buyer",
-          quote: "My morning routine is so much better.",
-          tag: "Lifestyle",
-          avatarSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-confident-successful-businesswoman-suit-cross-arms-chest-standing_1258-118021.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg?_wi=2",
-          imageAlt: "young woman portrait",
-        },
+          id: "t3",          name: "Emma L.",          date: "Sept 2024",          title: "Verified Buyer",          quote: "My morning routine is so much better.",          tag: "Lifestyle",          avatarSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-confident-successful-businesswoman-suit-cross-arms-chest-standing_1258-118021.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/cute-rounded-3d-object_23-2151881049.jpg",          imageAlt: "young woman portrait"},
         {
-          id: "t4",
-          name: "Jason K.",
-          date: "Aug 2024",
-          title: "Verified Buyer",
-          quote: "Truly curated collections.",
-          tag: "Tech",
-          avatarSrc: "http://img.b2bpic.net/free-photo/serious-young-business-man-looking-camera_1262-18625.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg?_wi=2",
-          imageAlt: "young woman portrait",
-        },
+          id: "t4",          name: "Jason K.",          date: "Aug 2024",          title: "Verified Buyer",          quote: "Truly curated collections.",          tag: "Tech",          avatarSrc: "http://img.b2bpic.net/free-photo/serious-young-business-man-looking-camera_1262-18625.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108726.jpg",          imageAlt: "young woman portrait"},
         {
-          id: "t5",
-          name: "Lucy H.",
-          date: "Aug 2024",
-          title: "Verified Buyer",
-          quote: "High quality items, highly recommended.",
-          tag: "Beauty",
-          avatarSrc: "http://img.b2bpic.net/free-photo/businesswoman-glasses-portrait_1262-1461.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg?_wi=2",
-          imageAlt: "young woman portrait",
-        },
+          id: "t5",          name: "Lucy H.",          date: "Aug 2024",          title: "Verified Buyer",          quote: "High quality items, highly recommended.",          tag: "Beauty",          avatarSrc: "http://img.b2bpic.net/free-photo/businesswoman-glasses-portrait_1262-1461.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/powerful-external-battery-with-usb-wire_93675-129232.jpg",          imageAlt: "young woman portrait"},
       ]}
       title="Trusted by Thousands"
       description="Hear what our community says about their latest finds."
@@ -305,20 +173,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "f1",
-          title: "How does the affiliate link work?",
-          content: "We earn a small commission when you click and buy through our links.",
-        },
+          id: "f1",          title: "How does the affiliate link work?",          content: "We earn a small commission when you click and buy through our links."},
         {
-          id: "f2",
-          title: "Is the shipping fast?",
-          content: "Shipping is managed by Amazon and other retailers for speed.",
-        },
+          id: "f2",          title: "Is the shipping fast?",          content: "Shipping is managed by Amazon and other retailers for speed."},
         {
-          id: "f3",
-          title: "Can I return products?",
-          content: "Yes, returns are handled directly by the retail partner.",
-        },
+          id: "f3",          title: "Can I return products?",          content: "Yes, returns are handled directly by the retail partner."},
       ]}
       sideTitle="Questions?"
       sideDescription="Check our FAQ for shipping, affiliate links, and refund info."
@@ -330,8 +189,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Stay Updated"
       title="Get Our Best Deals"
       description="Sign up for our newsletter and never miss an essential gadget deal again."
@@ -346,37 +204,25 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "About Us",
-              href: "#",
-            },
+              label: "About Us",              href: "#"},
             {
-              label: "Shop",
-              href: "#products",
-            },
+              label: "Shop",              href: "#products"},
           ],
         },
         {
           items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Affiliate Disclaimer",
-              href: "#",
-            },
+              label: "Affiliate Disclaimer",              href: "#"},
           ],
         },
         {
           items: [
             {
-              label: "Twitter",
-              href: "#",
-            },
+              label: "Twitter",              href: "#"},
             {
-              label: "Instagram",
-              href: "#",
-            },
+              label: "Instagram",              href: "#"},
           ],
         },
       ]}
